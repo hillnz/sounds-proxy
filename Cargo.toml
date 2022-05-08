@@ -1,0 +1,31 @@
+[package]
+name = "sounds-proxy"
+version = "0.1.0"
+authors = ["Jono Hill <jono@hillnz.com>"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0.136", features = ["derive"] }
+serde_json = "1.0.67"
+itertools = "0.10.3"
+thiserror = "1.0.30"
+percent-encoding = "2.1.0"
+rss = "2.0.0"
+m3u8-rs = "3.0.0"
+url = "2.2.2"
+async-stream = "0.3.3"
+futures = "0.3.21"
+env_logger = "0.9.0"
+log = "0.4.16"
+regex = "1.5.5"
+chrono = "0.4.19"
+figment = { version = "0.10.6", features = [ "env" ] }
+ffmpeg-next = "5.0.3"
+bitreader = "0.3.6"
+os_pipe = "1.0.1"
+tokio-pipe = "0.2.11"
+reqwest = "0.11.10"
+tokio = { version = "1.17.0", features = ["macros", "rt", "time"] }
+actix-web = "4.0.1"
+rust-s3 = "0.31.0"
+async-trait = "0.1.53"

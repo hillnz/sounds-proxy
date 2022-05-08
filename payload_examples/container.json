@@ -1,0 +1,2647 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/ExperienceResponse",
+    "data": [
+        {
+            "type": "inline_header_module",
+            "id": "container",
+            "style": null,
+            "title": "Friday Night Comedy from BBC Radio 4",
+            "description": "Download the best satirical comedy from Radio 4, every Friday.",
+            "data": {
+                "type": "container_item",
+                "id": "p02pc9pj",
+                "urn": "urn:bbc:radio:series:p02pc9pj",
+                "tlec_urn": "urn:bbc:radio:series:p02pc9pj",
+                "network": {
+                    "id": "bbc_radio_four",
+                    "key": "radio4",
+                    "short_title": "Radio 4",
+                    "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                },
+                "titles": {
+                    "primary": "Friday Night Comedy from BBC Radio 4",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": {
+                    "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                    "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                    "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                },
+                "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                "activities": [],
+                "uris": [
+                    {
+                        "type": "latest",
+                        "id": null,
+                        "label": "Latest",
+                        "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                    }
+                ],
+                "playable_count": null
+            }
+        },
+        {
+            "type": "inline_display_module",
+            "id": "container_list",
+            "style": null,
+            "title": "Latest Episodes from Friday Night Comedy from BBC Radio 4",
+            "description": null,
+            "state": "ok",
+            "uris": {
+                "pagination": {
+                    "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic&offset={offset}&limit={limit}",
+                    "offset": 0,
+                    "limit": 30,
+                    "total": 109
+                },
+                "polling": null
+            },
+            "controls": null,
+            "total": 109,
+            "data": [
+                {
+                    "type": "playable_item",
+                    "id": "p0bzn8f1",
+                    "urn": "urn:bbc:radio:episode:p0bzn7xm",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show - 8th April",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches.",
+                        "medium": null,
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1675,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 24000000,
+                                "label": "24 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 31000000,
+                                "label": "31 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 75000000,
+                                "label": "75 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-04-08T18:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-04-08T00:00:00Z",
+                        "label": "08 Apr 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0byd1gd",
+                    "urn": "urn:bbc:radio:episode:p0byd11r",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show - 1st April",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches.",
+                        "medium": null,
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1666,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 24000000,
+                                "label": "24 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 31000000,
+                                "label": "31 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 75000000,
+                                "label": "75 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-04-01T18:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-04-01T00:00:00Z",
+                        "label": "01 Apr 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bx16wz",
+                    "urn": "urn:bbc:radio:episode:p0bx16qk",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show - 25th March",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches.",
+                        "medium": null,
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvbvfr.jpg",
+                    "duration": {
+                        "value": 1675,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 24000000,
+                                "label": "24 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 31000000,
+                                "label": "31 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 75000000,
+                                "label": "75 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-26T11:21:31Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-03-25T00:00:00Z",
+                        "label": "25 Mar 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bvrnt2",
+                    "urn": "urn:bbc:radio:episode:p0bvrn18",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show – 18th March",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches.",
+                        "medium": null,
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvbvfr.jpg",
+                    "duration": {
+                        "value": 1675,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 24000000,
+                                "label": "24 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 31000000,
+                                "label": "31 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 75000000,
+                                "label": "75 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-18T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-03-18T00:00:00Z",
+                        "label": "18 Mar 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0btx928",
+                    "urn": "urn:bbc:radio:episode:p0btxbjc",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "Friday Night Comedy is now first on BBC Sounds",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "New episodes will now be available first on Sounds for 28 days before other podcast apps.",
+                        "medium": "Looking for the latest episode? New episodes of Friday Night Comedy will now be available first on BBC Sounds for four weeks before other podcast apps.",
+                        "long": "Looking for the latest episode? New episodes of Friday Night Comedy will now be available first on BBC Sounds for four weeks before other podcast apps.\n\nIf you haven’t already, you can download the BBC Sounds app to listen to the Friday Night Comedy podcast first.\n\nBBC Sounds is also available in lots of other places. Find us on your voice device or smart speaker, on your connected TV, in your car, or at bbc.co.uk/sounds.\n\nThe latest episode is available on BBC Sounds right now.\n\nBBC Sounds – you can find exclusive music mixes, live BBC radio and more podcasts like this one."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 60,
+                        "label": "1 min"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0btx928.mp3",
+                                "file_size": 1000000,
+                                "label": "1 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0btx928.mp3",
+                                "file_size": 1000000,
+                                "label": "1 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0btx928.mp3",
+                                "file_size": 1000000,
+                                "label": "1 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-12T04:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-03-12T00:00:00Z",
+                        "label": "12 Mar 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0btf00q",
+                    "urn": "urn:bbc:radio:episode:p0btdzvt",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show - 11th March",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches.",
+                        "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                        "long": "The Now Show returns with Steve and Hugh being joined by Stevie Martin and Kieran Hodgson, alongside stand-up from Ian Smith and Chloe Petts, and music from Huge Davies."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvbvfr.jpg",
+                    "duration": {
+                        "value": 1675,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 24000000,
+                                "label": "24 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 31000000,
+                                "label": "31 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 75000000,
+                                "label": "75 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-11T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-03-11T00:00:00Z",
+                        "label": "11 Mar 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bsl6wy",
+                    "urn": "urn:bbc:radio:episode:p0bsl978",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 4th March 2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman presents a look back at the week's headlines.",
+                        "medium": "Andy Zaltzman is joined by Mark Steel, Sindhu Vee, Daniel Finkelstein and Lucy Porter as they discuss a difficult week’s news.",
+                        "long": "Recorded at the BBC Radio Theatre, this week Andy Zaltzman is joined by Mark Steel, Sindhu Vee, Daniel Finkelstein and Lucy Porter to discuss war in Ukraine and the international reaction. Last in the series.\n\nHosted by Andy Zaltzman\nChairs script by Andy Zaltzman\nAdditional Material from Alice Fraser, Mike Shephard, Cameron Loxdale, Jade Gebbie and Peter Tellouche.\nProduction Co-ordinator: Katie Baum\nSound Editor: Marc Willcox\n\nThe Producer is James Robinson, and it is a BBC Studios Production."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bryzlb.jpg",
+                    "duration": {
+                        "value": 1737,
+                        "label": "28 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bsl6wy.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bsl6wy.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bsl6wy.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-04T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-03-04T00:00:00Z",
+                        "label": "04 Mar 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0br7t1j",
+                    "urn": "urn:bbc:radio:episode:p0br7v6l",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 25th February 2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman presents a look back at the week's headlines",
+                        "medium": "Andy Zaltzman is joined by Angela Barnes, Ian Smith, Desiree Burch and Geoff Norcott to discuss Putin's invasion of Ukraine and the reaction at home and abroad.",
+                        "long": "Recorded at the BBC Radio Theatre, this week Andy Zaltzman is joined by Angela Barnes, Ian Smith, Desiree Burch and Geoff Norcott to discuss Putin's invasion of Ukraine and the reaction at home and abroad. The team also look at the end of COVID restrictions in England, Johnson's questionnaire from the Met, and Trump's new social media venture.\n\nHosted by Andy Zaltzman\nChairs script by Andy Zaltzman\nAdditional Material from Alice Fraser, Suchandrika Chakrabarti, Sean Stoakes and Cameron Loxdale.\nProduction Co-ordinator: Katie Baum\nSound Editor: Marc Willcox\n\nThe Producer is Gwyn Rhys Davies, and it is a BBC Studios Production."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bryzlb.jpg",
+                    "duration": {
+                        "value": 1736,
+                        "label": "28 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0br7t1j.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0br7t1j.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0br7t1j.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-02-25T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-02-25T00:00:00Z",
+                        "label": "25 Feb 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bpz3hf",
+                    "urn": "urn:bbc:radio:episode:p0bpz4lc",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 18th February 2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman and the team look at the situation in Ukraine, troubled Princes and storms.",
+                        "medium": "Andy Zaltzman is joined by Elis James, Olga Koch, Tim Shipman and Shaparak Khorsandi look at the situation in Ukraine, some Royal brushes with the law and storms Dudley and Eunice.",
+                        "long": "Recorded at the BBC Radio Theatre, his week Andy Zaltzman was joined by Elis James, Olga Koch, Tim Shipman and Shaparak Khorsandi to look at the situation in Ukraine, and how the cream of British politics are dealing with the delicate situation; we looks at the Met Police, in a week that the Met Police are looking at Prince Charles, and in a (possible) world first, we have an audio-only picture round!\n\nHosted by Andy Zaltzman\nChairs script by Andy Zaltzman\nAdditional Material from Alice Fraser, Catherine Brinkworth, Ken Cheng and Rajiv Karia\nProduction Co-ordinators: Katie Baum & Caroline Barlow\nSound Editor: Marc Willcox\n\nThe Producer is Gwyn Rhys Davies, and it is a BBC Studios Production."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1736,
+                        "label": "28 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bpz3hf.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bpz3hf.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bpz3hf.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-02-18T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-02-18T00:00:00Z",
+                        "label": "18 Feb 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bnp1nd",
+                    "urn": "urn:bbc:radio:episode:p0bnp3wh",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 11th February 2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman and the team are back in BBC's Radio Theatre for the first time in 2 years.",
+                        "medium": "Andy Zaltzman is joined by Mark Steel, Athena Kugblenu, Hugo Rifkind and Jackie Weaver for The News Quiz's return to the BBC Radio Theatre after 2 years away.",
+                        "long": "After 5-and-a-half series, 44 episodes and 714 days, The News Quiz welcomes a live studio audience once again.\n\nRecorded at the BBC Radio Theatre, this week Andy Zaltzman was joined by Mark Steel, Athena Kugblenu, Hugo Rifkind and Jackie Weaver to look at NHS backlogs, the end of all COVID restrictions in England, a minor reshuffle and a major scientific breakthrough.\n\nHosted by Andy Zaltzman\nChairs script by Andy Zaltzman\nAdditional Material from Alice Fraser, Alex Kealy, Eleri Morgan and Rajiv Karia\nProduction Co-ordinator: Katie Baum\nSound Editor: Marc Willcox\n\nThe Producer is Gwyn Rhys Davies, and it is a BBC Studios Production."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1737,
+                        "label": "28 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bnp1nd.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bnp1nd.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bnp1nd.mp3",
+                                "file_size": 28000000,
+                                "label": "28 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-02-11T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-02-11T00:00:00Z",
+                        "label": "11 Feb 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bm8cc5",
+                    "urn": "urn:bbc:radio:episode:p0bm8d9g",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 4th February 2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman and the team present an un-redacted update on the week’s news.",
+                        "medium": "Andy Zaltzman is joined by Elis James, Ola Labib, Zoe Lyons and Ed Balls to give an un-redacted update on the weeks events, including partygate, levelling up and gas prices.",
+                        "long": "Andy Zaltzman is joined by Elis James, Ola Labib, Zoe Lyons and Ed Balls to give an un-redacted update on the week’s news.\n\nThe panel look at Partygate and Johnson's precarious position in No.10, find out what the Levelling Up whitepaper can teach us about the birth of civilisation, and discover how little we know about trees.\n\nHosted by Andy Zaltzman\nChairs script by Andy Zaltzman\nAdditional Material from Alice Fraser, Benjamin Partridge, Ray Badran and Tasha Dhanraj\nProduction Co-ordinator: Katie Baum\nSound Editor: Marc Willcox\n\nThe Producer is Gwyn Rhys Davies, and it is a BBC Studios Production."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1675,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bm8cc5.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bm8cc5.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bm8cc5.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-02-04T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-02-04T00:00:00Z",
+                        "label": "04 Feb 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bky74w",
+                    "urn": "urn:bbc:radio:episode:p0bkygds",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 28th January 2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman presents a look back at the week's headlines",
+                        "medium": "Andy Zaltzman is joined by Nish Kumar, Rachel Fairburn, Neil Delamere and Isabel Hardman to take on the news headlines from the UK and beyond.",
+                        "long": "Andy Zaltzman and the News Quiz satirise the week's news from the UK and beyond.\n\nThis week Andy is joined by Nish Kumar, Rachel Fairburn, Neil Delamere and Isabel Hardman. They try to make sense of a week of war mongering and cake ambushes.\n\nChair's Script: Written by Andy Zaltzman\nAdditional Material: Written by Alice Fraser, Heidi Regan, Rhiannon Shaw and Tasha Dhanraj.\nProduction Coordinator: Katie Baum\nSound Editor: Marc Willcox\nProducer: James Robinson\n\nA BBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1657,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bky74w.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bky74w.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bky74w.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-01-28T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-01-28T00:00:00Z",
+                        "label": "28 Jan 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bjmgz9",
+                    "urn": "urn:bbc:radio:episode:p0bjmkzb",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 21st January 2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman presents a look back at the week's headlines",
+                        "medium": "Andy Zaltzman is joined by Alice Fraser, Chris McCausland, Daliso Chaponda and Hugo Rifkind to take on the news headlines from the UK and beyond.",
+                        "long": "Andy Zaltzman and the News Quiz satirise the week's news from the UK and beyond.\n\nThis week Andy is joined by Alice Fraser, Chris McCausland, Daliso Chaponda and Hugo Rifkind. They try to make sense of a week of big dogs, pork pies and red meat.\n\nChair's Script: Written by Andy Zaltzman\nAdditional Material: Written by Heidi Regan, Cameron Loxdale, Stephen Buchanan and Tasha Dhanraj.\nProduction Coordinator: Katie Baum\nSound Editor: Marc Willcox\nProducer: James Robinson\n\nA BBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1659,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bjmgz9.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bjmgz9.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bjmgz9.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-01-21T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-01-21T00:00:00Z",
+                        "label": "21 Jan 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bh9k6h",
+                    "urn": "urn:bbc:radio:episode:p0bh9myl",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 14th January 2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman presents a look back at the week's headlines, in a tough week for the PM.",
+                        "medium": "Andy Zaltzman is joined for a work meeting by Ayesha Hazarika, Paul Sinha, Kiri Pritchard-McLean and Simon Evans, but after 28 minutes, realised it was actually a party, and left.",
+                        "long": "Andy Zaltzman presents a look back at the week's headlines, in a tough week for the Prime Minister.\n\nJoined by a panel of Ayesha Hazarika, Paul Sinha, Kiri Pritchard-McLean and Simon Evans, Andy looks back over the events of 20th May 2020 with Sue Gray-like focus. As well as Downing Street parties, the panel discuss rising energy bills, pig heart transplants, space telescopes and Michael Gove being trapped in a lift.\n\nChair's Script: Written by Andy Zaltzman\nAdditional Material: by Alice Fraser, Mike Shephard, Celya AB and Rajiv Karia\nProduction Coordinator: Katie Baum\nSound Editor: Marc Willcox\nProducer: Gwyn Rhys Davies.\n\nA BBC Studios Production."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1670,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bh9k6h.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bh9k6h.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bh9k6h.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-01-14T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-01-14T00:00:00Z",
+                        "label": "14 Jan 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bfzs0c",
+                    "urn": "urn:bbc:radio:episode:p0bfzsx1",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 7th January 2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman returns for another year of battling the headlines.",
+                        "medium": "As the News Quiz returns for 2022, Andy Zaltzman is joined by Alice Fraser, Chris McCausland, Katie Perrior and Ahir Shah to take on the news headlines from the UK and beyond.",
+                        "long": "Andy Zaltzman and the News Quiz return to satirise the weeks news from the UK and beyond.\n\nThis week Andy is joined by Alice Fraser, Chris McCausland, Katie Perrior and Ahir Shah. They look at the smallprint on Keir Starmer's 'contract with Britain', rate Boris Johnson's new look, and discuss Novak Djokovic's double fault.\n\nChair's Script: Written by Andy Zaltzman\nAdditional Material: Written by Simon Alcock, Nathan D'Arcy Roberts, Alice Fraser, Rajiv Karia and Hannah Platt\nProduction Coordinator: Katie Baum\nSound Editor: Marc Willcox\nProducer: Gwyn Rhys Davies\n\nA BBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1675,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bfzs0c.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bfzs0c.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bfzs0c.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-01-07T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2022-01-07T00:00:00Z",
+                        "label": "07 Jan 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bbrc6g",
+                    "urn": "urn:bbc:radio:episode:p0bbrh0n",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz Best of 2021 TX 31st Dec 2021",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman looks back at some notable news stories of 2021",
+                        "medium": "Andy Zaltzman looks back at the news highs, lows and mediums from a year of News Quizzing",
+                        "long": "Andy Zaltzman raids the 2021 archive to remember amongst other things, a man in a horned helmet running around the Capitol Building, the leader of the opposition not being allowed into a pub and Britain's favourite alpaca.\n\nProducer: Richard Morris\nProduction co-ordinator: Katie Baum\n\nA BBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1656,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bbrc6g.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bbrc6g.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bbrc6g.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-12-31T18:55:00Z",
+                        "to": "2026-12-16T18:51:00Z",
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-12-31T00:00:00Z",
+                        "label": "31 Dec 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bcjjsr",
+                    "urn": "urn:bbc:radio:episode:p0bcjz1g",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "Dead Ringers - Christmas Specials 2021 - The Multiverse Special",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "A special where the team look back at 2021 in various alternate earths in the multiverse.",
+                        "medium": "Nick Robinson (Jon Culshaw) and Martha Kearny (Jan Ravens) look back at weird and wonderful events from other worlds and universes featuring some surprisingly familiar faces.",
+                        "long": "A \"Today programme\" special which takes a satirical look back at recent events in alternative earths around the multiverse. There are worlds in which England attempts to break free from the yoke of Scottish rule, the most serious pandemic is Man Flu, Love Island is an important world power, Ronnie Corbett is worshipped as a god and TV series Succession is also wildly popular - but not as you would know it.\n\nPerformed by Jon Culshaw, Lewis Macleod, Jan Ravens, Debra Stephenson and Duncan Wisbey.\n\nWritten by Nev Fountain & Tom Jamieson, Laurence Howarth, Ed Amsden & Tom Coles, Edward Tew, Sophie Dickinson, Rob Darke, Dan Audritt and Kat Butterfield, Cody Dahler, and Duncan Wisbey.\n\nProducer... Bill Dare\nProduction Coordinator... Caroline Barlow\nSound Designer... Rich Evans\nA BBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 2576,
+                        "label": "42 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bcjjsr.mp3",
+                                "file_size": 42000000,
+                                "label": "42 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bcjjsr.mp3",
+                                "file_size": 42000000,
+                                "label": "42 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bcjjsr.mp3",
+                                "file_size": 42000000,
+                                "label": "42 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-12-24T19:00:00Z",
+                        "to": "2026-12-24T19:00:00Z",
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-12-24T00:00:00Z",
+                        "label": "24 Dec 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bbtlcx",
+                    "urn": "urn:bbc:radio:episode:p0bbtm24",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "Dead Ringers - Christmas Specials 2021 - Episode 2",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "For the first time, recorded live to air.",
+                        "medium": "For the first time broadcast live, from the BBC Radio Theatre, London with look at the big issues, from the by election results to cancelled office parties.",
+                        "long": "For the first time broadcast live, from the BBC Radio Theatre, London on Friday. This live show will feature Professor Sir Chris Whitty as you’ve never seen him before, Boris Johnson seeks the help of The Repair Shop, there's guidance on how to have fun without the office party and the epic quest to get a booster jab.\n\n\nWith, Lewis Macleod, Jan Ravens, Debra Stephenson and Duncan Wisbey.\n\nWritten by: Nev Fountain & Tom Jamieson, Laurence Howarth, Ed Amsden & Tom Coles, Edward Tew, Sophie Dickson, Rob Darke, Cody Dahler and Rachel Ethorn.\n\nProducer: Bill Dare\nProduction Coordinator: Caroline Barlow\nA BBC Studios Production for Radio 4."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1654,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bbtlcx.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bbtlcx.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bbtlcx.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-12-17T19:50:00Z",
+                        "to": "2026-12-17T19:50:00Z",
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-12-17T00:00:00Z",
+                        "label": "17 Dec 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0b99gsq",
+                    "urn": "urn:bbc:radio:episode:p0b99j8v",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "Dead Ringers - Christmas Specials 2021 - Episode 1",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "The topical satire show returns for a short series",
+                        "medium": "Did the party at Ten Downing Street happen or not? And who won the game of Twister? All is revealed.",
+                        "long": "The team delve into what really happened at Downing Street last Christmas, the real source of the Omicron variant, and follow Boris and Carrie’s baby’s first day at her new job.\n\nPerformed by Jon Culshaw, Lewis Macleod, Jan Ravens, Debra Stephenson and Duncan Wisbey.\n\nWritten by\nNev Fountain & Tom Jamieson, Laurence Howarth, Ed Amsden & Tom Coles, Edward Tew, Rob Darke, Natasha Dhanraj and Cody Dahler.\n\nProducer: Bill Dare\nProduction Coordinator: Caroline Barlow\nA BBC Studios Production for Radio 4"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1656,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b99gsq.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b99gsq.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b99gsq.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-12-10T19:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-12-10T00:00:00Z",
+                        "label": "10 Dec 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0b7zwgd",
+                    "urn": "urn:bbc:radio:episode:p0b8028s",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show - 3rd December - feat Janine Harouni, Jamie MacDonald, Tim Sutton and Sooz Kempner",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                        "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                        "long": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches in front of a remote audience - and all from their own home!\n\nJoining them for the final episode of the series and all from a safe distance is Janine Harouni, Jamie MacDonald with music supplied by Tim Sutton and Sooz Kempner.\n\nVoice Actors: Kieran Hodgson and Nimisha Odedra.\n\nProducer: Rajiv Karia\nProduction Co-Ordinator: Sarah Sharpe\n\nBBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1673,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b7zwgd.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b7zwgd.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b7zwgd.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-12-03T19:01:00Z",
+                        "to": "2026-12-02T19:01:00Z",
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-12-03T00:00:00Z",
+                        "label": "03 Dec 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0b6ldt9",
+                    "urn": "urn:bbc:radio:episode:p0b6lj0x",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show - 26th November - feat Athena Kugblenu, Geoff Norcott, and Huge Davies",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                        "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                        "long": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches in the BBC's Radio Theatre in front of a remote audience.\n\nJoining them from a safe distance is Athena Kugblenu taking on MPs wages, and Geoff Norcott on must-see TV. This week's music is supplied by Huge Davies.\n\nVoice Actors: Emma Sidi and Jason Forbes\n\nProducer: Rajiv Karia\nProduction Co-Ordinator: Sarah Sharpe\n\nBBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1670,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b6ldt9.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b6ldt9.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b6ldt9.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-11-26T19:01:00Z",
+                        "to": "2026-11-25T19:01:00Z",
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-11-26T00:00:00Z",
+                        "label": "26 Nov 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0b57z3r",
+                    "urn": "urn:bbc:radio:episode:p0b583ft",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show - 19th November ft Ria Lina, Josh Pugh and Beardyman",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                        "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                        "long": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches in front of a remote audience - and all from their own home!\n\nJoining them from a safe distance is Ria Lina taking on back-seat scientists, Josh Pugh pondering on dinosaur discoveries, and Beardyman playing us out with a jazzy ode to staying calm.\n\nVoice Actors: Luke Kempner and Natasha Hodgson\nProducer: Rajiv Karia\nProduction Co-Ordinator: Sarah Sharpe\n\nBBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1673,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b57z3r.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b57z3r.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b57z3r.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-11-19T19:01:00Z",
+                        "to": "2026-11-18T19:01:00Z",
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-11-19T00:00:00Z",
+                        "label": "19 Nov 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0b3wlfr",
+                    "urn": "urn:bbc:radio:episode:p0b3wp3q",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show - 12th November ft Gareth Gwynn, Michael Spicer, Priya Hall and Ignacio Lopez",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Steve Punt and Gareth Gwynn present the week via topical stand-up and sketches",
+                        "medium": "Steve Punt and Gareth Gwynn present the week via topical stand-up and sketches in front of a remote audience.",
+                        "long": "Steve Punt and Gareth Gwynn present the week via topical stand-up and sketches in front of a remote audience - and all from their own home!\n\nJoining them from a safe distance is Michael Spicer tackling non-sensical poiticians, Priya Hall wonders why we're experiencing shortages of pretty much everything and Igancio Lopez plays us out with a Bowie-inspired song about billionaires in space.\n\nVoice Actors: Luke Kempner and Karen Bartke.\n\nProducer: Pete Strauss & Rajiv Karia\nProduction Co-Ordinator: Sarah Sharpe\n\nBBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1674,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b3wlfr.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b3wlfr.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b3wlfr.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-11-12T19:01:00Z",
+                        "to": "2026-11-11T14:20:00Z",
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-11-12T00:00:00Z",
+                        "label": "12 Nov 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0b2gh8w",
+                    "urn": "urn:bbc:radio:episode:p0b2gldx",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show - 5th November ft Glenn Moore, Daliso Chaponda and Stiff & Kitsch",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches",
+                        "medium": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches from the BBC Radio Theatre in front of a remote audience.",
+                        "long": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches from the BBC Radio Theatre in front of a remote audience.\n\nJoining them from a safe distance is Glenn Moore talking about returning back to the office, Daliso Chaponda on the future of the Metaverse and Stiff & Kitsch with a song about all the things we can now worry about again now the pandemic is over (kind of).\n\nVoice Actors: Luke Kempner and Katie Norris\n\nProducer: Pete Strauss\nProduction Co-Ordinator: Sarah Sharpe\n\nBBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1674,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b2gh8w.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b2gh8w.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b2gh8w.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-11-05T19:01:00Z",
+                        "to": "2025-05-14T18:01:00Z",
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-11-05T00:00:00Z",
+                        "label": "05 Nov 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0b14hnb",
+                    "urn": "urn:bbc:radio:episode:p0b14lhj",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "The Now Show - 29th October ft Felicity Ward, Aurie Styla and Jess Robinson",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches",
+                        "medium": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches from the BBC Radio Theatre in front of a remote audience.",
+                        "long": "Steve Punt and Hugh Dennis present the week via topical stand-up and sketches and they're back in the BBC Radio Theatre in front of a remote audience.\n\nJoining them from a safe distance is Felicity Ward who has a foolproof plan for improving food in this country and Aurie Styla giving survival tips for the pandemic and the smug benefits of owning an electric car.\n\nWe also get a sneak peek at Adele's 23rd album, 96, from Jess Robinson. Music composed by Alex Silverman.\n\nVoice Actors: Gemma Arrowsmith and Luke Kempner\n\nProducer: Pete Strauss\nProduction Co-Ordinator: Sarah Sharpe\n\nBBC Studios Production"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1673,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b14hnb.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b14hnb.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0b14hnb.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-10-29T18:01:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-10-29T00:00:00Z",
+                        "label": "29 Oct 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p09zs01z",
+                    "urn": "urn:bbc:radio:episode:p09zs1gs",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 22nd October 2021",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "For the final time this series, Andy Zaltzman and the panel take on the week's headlines.",
+                        "medium": "Andy Zaltzman is joined by Ayesha Hazarika, Matt Winning, Geoff Norcott and Elis James to discuss the upcoming COP26 summit, Southend's city status and whether we need a plan C.",
+                        "long": "In the last of the current series, Andy Zaltzman and the panel take on the week's headlines.\n\nAyesha Hazarika, Matt Winning, Geoff Norcott and Elis James join Andy in 'convivial, fraternal spirit' to look take a close look at COP26, and whether Brian Cox is right about earth's extinction leaving the galaxy bereft of meaning. They also discuss Southend's newly-minted city status, online anonymity and Sajid Javid's winter plan.\n\nThe chair's script is written by Andy Zaltzman, with additional material by Alice Fraser, Mike Shephard, Hannah Platt and Rajiv Karia.\n\nProducer: Gwyn Rhys Davies\nProduction Co-ordinator: Katie Baum\nSound Editor: Marc Willcox\n\nA BBC Studios Production."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1665,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09zs01z.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09zs01z.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09zs01z.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-10-22T18:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-10-22T00:00:00Z",
+                        "label": "22 Oct 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p09ytfqb",
+                    "urn": "urn:bbc:radio:episode:p09ytg6p",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 15th October 2021",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman and the panel delve into the week's headlines.",
+                        "medium": "Andy Zalztman is joined by Catherine Bohart, Michael Deacon, Chris McCausland and Eshaan Akbar to discuss the COVID report, Boris' holiday, and more Brexit border disputes.",
+                        "long": "Catherine Bohart, Michael Deacon, Chris McCausland and Eshaan Akbar join host Andy Zaltzman to look back over the week's news. This week, they look at the COVID report's findings, Boris Johnson's holiday hobby, the Northern Ireland Protocol and a sacked wizard.\n\nThe chair's script is written by Andy Zaltzman, with additional material by Alice Fraser, Catherine Brinkworth, Rhiannon Shaw and Rajiv Karia.\n\nProducer: Gwyn Rhys Davies\nProduction Co-ordinator: Katie Baum\nSound Editor: Mike Smith\n\nA BBC Studios Production."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1675,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09ytfqb.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09ytfqb.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09ytfqb.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-10-15T18:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-10-15T00:00:00Z",
+                        "label": "15 Oct 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p09y4f6n",
+                    "urn": "urn:bbc:radio:episode:p09y4ggj",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 8th October 2021",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman and the panel pick apart the week's headlines.",
+                        "medium": "Andy is joined by Kerry Godliman, Anand Menon, Kiri Pritchard-McLean and Ola Labib to discuss the Tory party conference, rising fuel prices, Facebook's outage and a Malaria jab.",
+                        "long": "Kerry Godliman, Anand Menon, Kiri Pritchard-McLean and Ola Labib join host Andy Zaltzman to pore over the week's news. This week, they get their teeth into the Tory party conference, the scrapping of the Universal credit uplift in the week it was announced fuel prices could go up by 30%, Facebook's 6hr lost weekend and the Nobel Prizes.\n\nThe chair's script is written by Andy Zaltzman, with additional material by Alice Fraser, Heidi Regan, Suchandrika Chakrabarti and Tasha Dhanraj.\n\nProducer: Gwyn Rhys Davies\nProduction Co-ordinator: Katie Baum\nSound Editor: Marc Willcox\n\nA BBC Studios Production."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1674,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09y4f6n.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09y4f6n.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09y4f6n.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-10-08T18:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-10-08T00:00:00Z",
+                        "label": "08 Oct 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p09xhp82",
+                    "urn": "urn:bbc:radio:episode:p09xhqg9",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 1st October 2021",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman and a panel of comedians look back at the week's headlines",
+                        "medium": "Andy is joined by Lucy Porter, Angela Barnes, Alun Cochrane and Matt Forde to discuss the week's news, including the fuel crisis, Labour conference, furlough ending and Bond.",
+                        "long": "Lucy Porter, Angela Barnes, Alun Cochrane and Matt Forde join host Andy Zaltzman to chew over the week's news. On the menu this week: the fuel crisis, Labour conference, end of the furlough scheme, Amazon's new house robot and the new Bond film.\n\nThe chair's script is written by Andy Zaltzman, with additional material by Alice Fraser, Max Davis, Tasha Dhanraj and Heidi Regan.\n\nIt was produced by Sam Michell for BBC Studios."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1674,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09xhp82.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09xhp82.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09xhp82.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-10-01T18:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-10-01T00:00:00Z",
+                        "label": "01 Oct 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p09wwrsv",
+                    "urn": "urn:bbc:radio:episode:p09wwsnw",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Friday Night Comedy from BBC Radio 4",
+                        "secondary": "News Quiz 24th September 2021",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Andy Zaltzman presents a look back at the week's headlines.",
+                        "medium": "Andy welcomes panellists Hugo Rifkind, Susie McCabe, Ria Lina and Andrew Maxwell to comically discuss the week's news.",
+                        "long": "Andy is joined by journalist Hugo Rifkind and comedians Susie McCabe, Ria Lina and Andrew Maxwell to dismantle and discuss the week's news, including the energy crisis, lack of Co2 and Boris's trip to the US.\n\nThe script is written by host Andy Zaltzman with additional material by Alice Fraser, Mike Shephard, Rajiv Karia and Esther Manito.\n\nIt is produced by Sam Michell for BBC Studios."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqbttv.jpg",
+                    "duration": {
+                        "value": 1669,
+                        "label": "27 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "series",
+                        "id": "p02pc9pj",
+                        "urn": "urn:bbc:radio:series:p02pc9pj",
+                        "title": "Friday Night Comedy from BBC Radio 4",
+                        "synopses": {
+                            "short": "Download the best satirical comedy from Radio 4, every Friday.",
+                            "medium": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers.",
+                            "long": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show and Dead Ringers."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09wwrsv.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09wwrsv.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p09wwrsv.mp3",
+                                "file_size": 27000000,
+                                "label": "27 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2021-09-24T18:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2021-09-24T00:00:00Z",
+                        "label": "24 Sep 2021"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p02pc9pj&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                }
+            ],
+            "image_url": null
+        }
+    ]
+}
