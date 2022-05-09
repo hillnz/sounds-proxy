@@ -62,14 +62,18 @@ async fn get_episode(config: web::Data<Config>, pid: web::Path<String>) -> Resul
 
         let stream = sounds_proxy::get_episode(&episode_id).await?;
 
-        
+        if let Some(s3_bucket) = config.s3_bucket {
+            let bucket = Bucket::new();
 
-            .map_ok(|bytes| bytes.into());
 
-        Ok(HttpResponse::Ok()
-            .content_type("audio/aac".to_string())
-            .insert_header(("Cache-Control", "public, max-age=604800"))
-            .streaming(stream))
+        } else {
+            let stream = stream.map_ok(|bytes| bytes.into());
+
+            Ok(HttpResponse::Ok()
+                .content_type("audio/aac".to_string())
+                .insert_header(("Cache-Control", "public, max-age=604800"))
+                .streaming(stream))
+        }
     }
 }
 
