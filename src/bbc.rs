@@ -2,6 +2,7 @@ use crate::hls::HlsError;
 
 use super::fetch::{get, head, FetchError};
 use percent_encoding::{utf8_percent_encode, NON_ALPHANUMERIC};
+use s3::error::S3Error;
 use serde::{Deserialize, Serialize};
 use thiserror::Error;
 
@@ -27,6 +28,9 @@ pub enum BbcResponseError {
 
     #[error("HLS download error: {0}")]
     HlsDownloadError(#[from] HlsError),
+
+    #[error("S3 upload error: {0}")]
+    S3UploadError(#[from] S3Error),
 }
 
 impl From<FetchError> for BbcResponseError {
@@ -39,6 +43,19 @@ impl From<FetchError> for BbcResponseError {
             }
         } else {
             BbcResponseError::FetchError(err)
+        }
+    }
+}
+
+impl From<BbcResponseError> for std::io::Error {
+    fn from(err: BbcResponseError) -> Self {
+        match err {
+            BbcResponseError::NotFound => std::io::Error::new(std::io::ErrorKind::NotFound, err),
+            BbcResponseError::FormatError => {
+                std::io::Error::new(std::io::ErrorKind::InvalidData, err)
+            }
+            BbcResponseError::IOError(err) => err,
+            _ => std::io::Error::new(std::io::ErrorKind::Other, err),
         }
     }
 }
