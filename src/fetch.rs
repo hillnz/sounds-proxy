@@ -9,7 +9,6 @@ pub enum FetchError {
     ReqwestError(#[from] reqwest::Error),
 }
 
-// TODO is it possible to use streams? This will crash if the response is too big
 pub struct Response {
     pub status: u16,
     bytes: Vec<u8>,
@@ -33,7 +32,6 @@ impl Response {
 const USER_AGENT: &str =
     "BBCSounds/2.6.0.14059 (iPhone13,3; iOS 15.3.1) MediaSelectorClient/7.0.4 BBCHTTPClient/9.0.0";
 
-#[cfg(not(target_family = "wasm"))]
 pub async fn get(uri: String) -> Result<Response, FetchError> {
     let client = reqwest::Client::new();
 

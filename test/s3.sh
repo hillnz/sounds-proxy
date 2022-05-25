@@ -30,6 +30,7 @@ export AWS_SECRET_KEY=test
 export AWS_REGION=ap-southeast-2
 export SOUNDS_PROXY_BASE_URL=http://localhost:3000
 export SOUNDS_PROXY_S3_BUCKET=sounds-proxy-test
+export SOUNDS_PROXY_S3_ENDPOINT_URL=http://localhost:4566
 export RUST_LOG=sounds_proxy=debug
 
 aws --endpoint-url=http://localhost:4566 s3 mb "s3://$SOUNDS_PROXY_S3_BUCKET" || true

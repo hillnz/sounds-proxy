@@ -17,7 +17,7 @@ Configuration is via environment variables.
 | SOUNDS_PROXY_LISTEN_PORT | Listen port | 8080 |
 | SOUNDS_PROXY_BASE_URL | Base URL (so it can be returned in the podcast feed) | None |
 | SOUNDS_PROXY_S3_BUCKET | If specified, episodes will be saved to, and served from, this bucket | None |
-| SOUNDS_PROXY_S3_BASE_URL | Base URL for the S3 bucket | https://<bucket-name>.s3.<region>.amazonaws.com/ |
+| SOUNDS_PROXY_S3_BASE_URL | Base URL for the S3 bucket (or a proxy etc) | https://<bucket-name>.s3.<region>.amazonaws.com/ |
 
 Then run `sounds-proxy`.
 

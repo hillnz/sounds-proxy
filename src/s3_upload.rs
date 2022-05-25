@@ -1,26 +1,100 @@
+use aws_sdk_s3::{
+    error::{HeadObjectError, HeadObjectErrorKind},
+    types::{ByteStream, SdkError},
+    Client,
+};
+use aws_smithy_http::body::SdkBody;
 use bytes::Buf;
 use futures::Stream;
-use s3::error::S3Error;
-use s3::Bucket;
-use std::io::Error;
-use tokio_util::io::StreamReader;
+use futures::StreamExt;
+
+#[derive(Debug, thiserror::Error)]
+pub enum S3Error {
+    #[error("upload error")]
+    UploadError,
+
+    #[error("io error {0}")]
+    Io(#[from] std::io::Error),
+
+    #[error("unknown error")]
+    UnknownError,
+}
+
+impl<E> From<SdkError<E>> for S3Error
+where
+    E: std::error::Error,
+{
+    fn from(err: SdkError<E>) -> Self {
+        log::error!("AWS SDK Error: {:?}", err);
+        S3Error::UploadError
+    }
+}
+
+impl From<hyper::Error> for S3Error {
+    fn from(err: hyper::Error) -> Self {
+        log::error!("Hyper Error: {:?}", err);
+        S3Error::UploadError
+    }
+}
 
 pub async fn try_put_async_stream<S, B>(
-    bucket: &Bucket,
+    client: &Client,
+    bucket_name: &str,
     stream: S,
     s3_path: &str,
-) -> Result<u16, S3Error>
+    content_type: Option<&str>,
+) -> Result<(), S3Error>
 where
-    S: Stream<Item = Result<B, Error>> + Unpin,
+    S: Stream<Item = Result<B, std::io::Error>> + Unpin,
     B: Buf,
 {
-    let (_, code) = bucket.head_object(s3_path).await?;
-    // TODO inspect the head in some way?
-    if code == 404 {
-        let mut reader = StreamReader::new(stream);
-        let result = bucket.put_object_stream(&mut reader, s3_path).await?;
-        Ok(result)
-    } else {
-        Ok(code)
+    let head_result = client
+        .head_object()
+        .bucket(bucket_name)
+        .key(s3_path)
+        .send()
+        .await;
+
+    let found = match head_result {
+        Ok(_) => Ok(true),
+        Err(SdkError::ServiceError {
+            err:
+                HeadObjectError {
+                    kind: HeadObjectErrorKind::NotFound(_),
+                    ..
+                },
+            ..
+        }) => Ok(false),
+        Err(err) => Err(err),
+    }?;
+
+    if !found {
+        let (mut tx, channel_body) = hyper::Body::channel();
+        let byte_stream = ByteStream::new(SdkBody::from(channel_body));
+
+        let copy_op = async move { // move is important to ensure tx will be dropped
+            let mut stream = stream.fuse();
+            while let Some(data) = stream.next().await {
+                let mut data = data?;
+                let data = data.copy_to_bytes(data.remaining());
+                tx.send_data(data).await?;
+            }
+            Ok::<(), S3Error>(())
+        };
+
+        let put_op = client
+            .put_object()
+            .bucket(bucket_name)
+            .key(s3_path)
+            .body(byte_stream)
+            .cache_control("public, max-age=604800") // 7 days
+            .content_type(content_type.unwrap_or("application/octet-stream"))
+            .send();
+
+        let (put_result, copy_result) = futures::join!(put_op, copy_op);
+        put_result?;
+        copy_result?;
     }
+
+    Ok(())
 }

@@ -1,8 +1,8 @@
 use crate::hls::HlsError;
+use crate::s3_upload::S3Error;
 
 use super::fetch::{get, head, FetchError};
 use percent_encoding::{utf8_percent_encode, NON_ALPHANUMERIC};
-use s3::error::S3Error;
 use serde::{Deserialize, Serialize};
 use thiserror::Error;
 
