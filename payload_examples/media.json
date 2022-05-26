@@ -1,0 +1,64 @@
+{
+    "media": [
+        {
+            "kind": "audio",
+            "expires": "2099-01-01T00:00:00+00:00",
+            "type": "audio/mp4",
+            "media_file_size": "10223891",
+            "connection": [
+                {
+                    "transferFormat": "hls",
+                    "authExpires": "2022-03-17T03:09:35+00:00",
+                    "supplier": "akamai_hls_open",
+                    "href": "http://cp401492-vh.akamaihd.net/i/prod_af_mp4_heaacv1_48/iplayerstream/bUnknown-16cc6101-0262-4212-8818-f6e59bb3680b_p0btf00q_pips-pid-p0btf00q_1647016680157.mp4/master.m3u8?hdnea=st=1647419922~exp=1647441522~acl=/*bUnknown-16cc6101-0262-4212-8818-f6e59bb3680b_p0btf00q_pips-pid-p0btf00q_1647016680157.mp4*~hmac=e8f2d70728f2cf16c05180c6a7ed5fd97f231518f688457ea8d9e4ed9998c3a5",
+                    "protocol": "http",
+                    "priority": "10",
+                    "authExpiresOffset": 66653
+                },
+                {
+                    "transferFormat": "hls",
+                    "authExpires": "2022-03-17T07:15:09+00:00",
+                    "supplier": "akamai_hls_open_https",
+                    "href": "https://cp401492-vh.akamaihd.net/i/prod_af_mp4_heaacv1_48/iplayerstream/bUnknown-16cc6101-0262-4212-8818-f6e59bb3680b_p0btf00q_pips-pid-p0btf00q_1647016680157.mp4/master.m3u8?hdnea=st=1647419922~exp=1647441522~acl=/*bUnknown-16cc6101-0262-4212-8818-f6e59bb3680b_p0btf00q_pips-pid-p0btf00q_1647016680157.mp4*~hmac=e8f2d70728f2cf16c05180c6a7ed5fd97f231518f688457ea8d9e4ed9998c3a5",
+                    "authExpiresOffset": 81387,
+                    "priority": "20",
+                    "protocol": "https"
+                }
+            ],
+            "service": "stream-nonuk-audio_streaming_aac_vlow",
+            "bitrate": "48",
+            "encoding": "aac"
+        },
+        {
+            "type": "audio/mp4",
+            "kind": "audio",
+            "expires": "2099-01-01T00:00:00+00:00",
+            "bitrate": "320",
+            "service": "stream-nonuk-audio_streaming_concrete_combined",
+            "encoding": "aac",
+            "connection": [
+                {
+                    "authExpires": "2022-03-16T19:33:35+00:00",
+                    "transferFormat": "hls",
+                    "dpw": "100",
+                    "priority": "1",
+                    "authExpiresOffset": 39293,
+                    "protocol": "http",
+                    "href": "http://aod-hls-ww-live.akamaized.net/usp/auth/vod/piff_abr_full_audio/a083be-p0btf00q/vf_p0btf00q_5d930d94-3c2f-4155-97c4-5a32622f3946.ism/mobile_wifi_main_sd_abr_v2_nonuk_hls_master.m3u8?__gda__=1647441522_6a9e8482f2833d9a4ba1e040d6ee6b0f",
+                    "supplier": "af_akamai_nonuk_hls"
+                },
+                {
+                    "authExpires": "2022-03-16T18:07:00+00:00",
+                    "transferFormat": "hls",
+                    "dpw": "100",
+                    "href": "https://aod-hls-ww-live.akamaized.net/usp/auth/vod/piff_abr_full_audio/a083be-p0btf00q/vf_p0btf00q_5d930d94-3c2f-4155-97c4-5a32622f3946.ism/mobile_wifi_main_sd_abr_v2_nonuk_hls_master.m3u8?__gda__=1647441522_6a9e8482f2833d9a4ba1e040d6ee6b0f",
+                    "authExpiresOffset": 34098,
+                    "priority": "10",
+                    "protocol": "https",
+                    "supplier": "af_akamai_nonuk_hls_https"
+                }
+            ]
+        }
+    ],
+    "disclaimer": "This code and data form part of the BBC iPlayer content protection system. Tampering with, removal of, misuse of, or unauthorised use of this code or data constitutes circumvention of the BBC's content protection measures and may result in legal action. BBC (C) 2017."
+}

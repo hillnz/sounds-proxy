@@ -1,0 +1,39 @@
+[package]
+name = "sounds-proxy"
+version = "0.1.0"
+authors = ["Jono Hill <jono@hillnz.com>"]
+edition = "2021"
+
+[profile.release]
+strip = true
+
+[dependencies]
+actix-web = "4.0.1"
+async-stream = "0.3.3"
+async-trait = "0.1.53"
+aws-config = "0.12.0"
+aws-sdk-s3 = "0.12.0"
+aws-smithy-http = "0.42.0"
+bitreader = "0.3.6"
+bytes = "1.1.0"
+chrono = "0.4.19"
+env_logger = "0.9.0"
+ffmpeg-next = "5.0.3"
+figment = { version = "0.10.6", features = [ "env" ] }
+futures = "0.3.21"
+hyper = "0.14.18"
+itertools = "0.10.3"
+log = "0.4.16"
+m3u8-rs = "3.0.0"
+os_pipe = "1.0.1"
+percent-encoding = "2.1.0"
+regex = "1.5.5"
+reqwest = "0.11.10"
+rss = "2.0.0"
+serde = { version = "1.0.136", features = ["derive"] }
+serde_json = "1.0.67"
+thiserror = "1.0.30"
+tokio = { version = "1.17.0", features = ["macros", "rt", "time"] }
+tokio-pipe = "0.2.11"
+tokio-util = { version = "0.7.1", features = ["io"] }
+url = "2.2.2"
