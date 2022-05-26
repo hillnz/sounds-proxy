@@ -34,4 +34,4 @@ You could also [use AWS Lambda](terraform-sounds-proxy-lambda/README.md).
 
 ## Caveats
 
-BBC Sounds audio is AAC ADTS audio in an MPEG-TS container. For improved compatibility this is remuxed on the fly to a raw ADTS AAC audio file, but this still may not be supported by some podcast players. No format conversion is performed as this would be computationally expensive.
+BBC Sounds audio is AAC ADTS audio in an MPEG-TS container served via HLS. For improved compatibility this is remuxed on the fly to a raw ADTS AAC audio file, but this still may not be supported by some podcast players. No format conversion is performed as this would be computationally expensive.
