@@ -1,6 +1,6 @@
 # sounds-proxy
 
-A proxy server for BBC Sounds podcasts. Opens access to episodes which are normally exclusive to the BBC Sounds so that they can be accessed via other podcast applications.
+A proxy server for BBC Sounds podcasts. Opens access to episodes which are normally exclusive to BBC Sounds so that they can be accessed via other podcast applications.
 
 ## Build
 
