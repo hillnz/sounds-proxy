@@ -14,7 +14,9 @@ RUN cargo install --path .
 
 FROM debian:stable-slim
 
-RUN apt-get update && apt-get install -y ffmpeg
+RUN apt-get update && apt-get install -y \
+    ca-certificates \
+    ffmpeg
 
 # Adds support for running in Lambda
 ENV READINESS_CHECK_PATH=/ok
