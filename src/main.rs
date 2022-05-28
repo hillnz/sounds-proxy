@@ -49,8 +49,8 @@ async fn get_podcast_feed(
     let id = pid.into_inner();
 
     let base_url = match (&config.base_url, req.headers().get("Host")) {
-        (Some(url), _) => url,
-        (None, Some(host)) => host.to_str()?,
+        (Some(url), _) => url.clone(),
+        (None, Some(host)) => "https://".to_string() + host.to_str()?,
         _ => return Err(bbc::BbcResponseError::BadRequest),
     };
 
