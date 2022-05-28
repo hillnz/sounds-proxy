@@ -1,6 +1,6 @@
 [package]
 name = "sounds-proxy"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jono Hill <jono@hillnz.com>"]
 edition = "2021"
 

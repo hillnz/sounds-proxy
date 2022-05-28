@@ -1,5 +1,5 @@
 use actix_web::{
-    get, http::StatusCode, middleware, web, App, HttpResponse, HttpServer, Responder, ResponseError,
+    get, http::{StatusCode}, middleware, web, App, HttpResponse, HttpServer, Responder, ResponseError, HttpRequest,
 };
 use bytes::Bytes;
 use figment::{providers::Env, Figment};
@@ -28,7 +28,7 @@ impl ResponseError for bbc::BbcResponseError {
 
 #[derive(Clone, Debug, PartialEq, Deserialize)]
 struct Config {
-    pub base_url: String,
+    pub base_url: Option<String>,
     pub listen_port: Option<u16>,
     pub s3_bucket: Option<String>,
     pub s3_base_url: Option<String>,
@@ -42,12 +42,19 @@ async fn ok() -> impl Responder {
 
 #[get("/show/{pid}")]
 async fn get_podcast_feed(
+    req: HttpRequest,
     config: web::Data<Config>,
     pid: web::Path<String>,
 ) -> Result<impl Responder, bbc::BbcResponseError> {
     let id = pid.into_inner();
 
-    let response = sounds_proxy::get_podcast_feed(&config.base_url, &id).await?;
+    let base_url = match (&config.base_url, req.headers().get("Host")) {
+        (Some(url), _) => url,
+        (None, Some(host)) => host.to_str()?,
+        _ => return Err(bbc::BbcResponseError::BadRequest),
+    };
+
+    let response = sounds_proxy::get_podcast_feed(&base_url, &id).await?;
 
     Ok(HttpResponse::Ok()
         .insert_header(("Content-Type", "application/rss+xml"))
@@ -139,7 +146,7 @@ async fn get_episode(
         Ok(HttpResponse::TemporaryRedirect()
             .insert_header((
                 actix_web::http::header::LOCATION,
-                format!("{}/episode/{}.aac", config.base_url, episode_id),
+                format!("{}/episode/{}.aac", config.base_url.as_ref().unwrap_or(&"".to_string()), episode_id),
             ))
             .finish())
     }
