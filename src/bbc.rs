@@ -2,12 +2,16 @@ use crate::hls::HlsError;
 use crate::s3_upload::S3Error;
 
 use super::fetch::{get, head, FetchError};
+use hyper::header::ToStrError;
 use percent_encoding::{utf8_percent_encode, NON_ALPHANUMERIC};
 use serde::{Deserialize, Serialize};
 use thiserror::Error;
 
 #[derive(Error, Debug)]
 pub enum BbcResponseError {
+    #[error("Bad request")]
+    BadRequest,
+
     #[error("Not found")]
     NotFound,
 
@@ -57,6 +61,12 @@ impl From<BbcResponseError> for std::io::Error {
             BbcResponseError::IOError(err) => err,
             _ => std::io::Error::new(std::io::ErrorKind::Other, err),
         }
+    }
+}
+
+impl From<ToStrError> for BbcResponseError {
+    fn from(_: ToStrError) -> Self {
+        BbcResponseError::BadRequest
     }
 }
 
