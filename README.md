@@ -24,8 +24,6 @@ Then run `sounds-proxy`.
 To request a podcast feed, you'll need the show's ID. This ID will be the last element of the show's URL on BBC Sounds.
 Request http://localhost:8080/shows/<show-id> to get the feed (adjusting for your base URL as appropriate).
 
-There's a demo version hosted at https://sounds.errsuccess.com/.
-
 ## Deploy
 
 Run the `sounds-proxy` binary or the Docker image.
