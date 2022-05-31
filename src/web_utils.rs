@@ -2,6 +2,7 @@ use crate::bbc::BbcResponseError;
 
 pub fn get_http_response_for_bbc_error(err: &BbcResponseError) -> (u16, Option<String>) {
     match err {
+        BbcResponseError::BadRequest => (400, None),
         BbcResponseError::NotFound => (404, None),
         BbcResponseError::FormatError => (503, Some("Unexpected data from BBC".into())),
         BbcResponseError::ServerResponseError(upstream_status) => {

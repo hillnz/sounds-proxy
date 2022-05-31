@@ -55,6 +55,7 @@ impl HlsStream {
             let out_pipe = format!("pipe:{}", tx.as_raw_fd());
 
             ffmpeg_next::init()?;
+            ffmpeg_next::log::set_level(ffmpeg_next::log::Level::Warning);
 
             let mut input = format::input(&url)?;
             let mut output = format::output_as(&out_pipe, "adts")?;
