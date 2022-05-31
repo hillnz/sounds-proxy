@@ -1,5 +1,6 @@
 use actix_web::{
-    get, http::{StatusCode}, middleware, web, App, HttpResponse, HttpServer, Responder, ResponseError, HttpRequest,
+    get, http::StatusCode, middleware, web, App, HttpRequest, HttpResponse, HttpServer, Responder,
+    ResponseError,
 };
 use bytes::Bytes;
 use figment::{providers::Env, Figment};
@@ -146,7 +147,11 @@ async fn get_episode(
         Ok(HttpResponse::TemporaryRedirect()
             .insert_header((
                 actix_web::http::header::LOCATION,
-                format!("{}/episode/{}.aac", config.base_url.as_ref().unwrap_or(&"".to_string()), episode_id),
+                format!(
+                    "{}/episode/{}.aac",
+                    config.base_url.as_ref().unwrap_or(&"".to_string()),
+                    episode_id
+                ),
             ))
             .finish())
     }

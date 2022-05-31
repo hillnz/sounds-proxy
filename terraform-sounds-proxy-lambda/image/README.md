@@ -1,0 +1,1 @@
+The Dockerfile here simply copies the standard application image. It's required to allow terraform to copy the public image to a private ECR repo for the lambda.
