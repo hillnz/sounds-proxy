@@ -133,9 +133,11 @@ module "lambda_function_container_image" {
       actions = [
         "s3:GetObject",
         "s3:PutObject",
+        "s3:PutObjectAcl",
       ],
       resources = [
-        "${aws_s3_bucket.bucket.arn}/*"
+        aws_s3_bucket.bucket.arn,
+        "${aws_s3_bucket.bucket.arn}/*",
       ]
     },
   }
