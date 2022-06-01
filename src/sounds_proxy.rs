@@ -165,7 +165,7 @@ pub async fn get_podcast_feed(base_url: &str, programme_id: &str) -> Result<Stri
                 .description(summary)
                 .enclosure(Some(enclosure))
                 .guid(Some(guid))
-                .pub_date(pub_date.map(|d| d.to_rfc3339()))
+                .pub_date(pub_date.map(|d| d.to_rfc2822()))
                 .itunes_ext(Some(it_item))
                 .build()
         })
@@ -186,7 +186,7 @@ pub async fn get_podcast_feed(base_url: &str, programme_id: &str) -> Result<Stri
         .itunes_ext(Some(rss_itunes))
         .namespaces(namespaces)
         .items(episodes)
-        .pub_date(most_recent_pubdate.map(|d| d.to_rfc3339()))
+        .pub_date(most_recent_pubdate.map(|d| d.to_rfc2822()))
         .image(image)
         .build();
 
